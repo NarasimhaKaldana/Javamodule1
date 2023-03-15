@@ -1,0 +1,3 @@
+module junit {
+	requires junit;
+}
