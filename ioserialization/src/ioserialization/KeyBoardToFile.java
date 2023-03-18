@@ -16,7 +16,7 @@ public class KeyBoardToFile {
 		
 		FileWriter writer = new FileWriter("Nammadafile.txt");
 		
-		System.out.println("Enter some text");
+		System.out.println("Enter some text");   
 		data = reader.readLine();
 
 		while (!data.equals("quit")) {
