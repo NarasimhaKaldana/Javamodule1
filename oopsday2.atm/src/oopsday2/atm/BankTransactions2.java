@@ -18,9 +18,9 @@ public class BankTransactions2 {
 		boa.addAccount(a5);
 		
 		System.out.println(boa.balanceEnquiry(103));
-	double result = boa.deposit(100, 103);
+	double result = boa.deposit(100);
 	System.out.println(result);
-	result = boa.withdraw(50, 103);
+	result = boa.withdraw(50);
 	System.out.println(result);
 				
 		// TODO Auto-generated method stub

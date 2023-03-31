@@ -10,7 +10,7 @@ public class PrimeNumber {
     	 }
 }
 
-          public static
+         
 
 /*
  * package paramtest;

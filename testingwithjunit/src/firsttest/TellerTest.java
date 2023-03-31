@@ -9,10 +9,10 @@ public class TellerTest {
 	Teller teller = new Teller();
 
 	@Test(expected = IllegalArgumentException.class)
-	public void testValidateUnacceptedCurrency() {
+	public void testValidateUnacceptedCurrency1() {
         teller.validateTransaction("AUSD", 100); 
 	}
-	@Test(expected = InvalidTransactionAmountSException.class)
+	@Test(expected = InvalidTransactionAmountException.class)
 	public void testValidateUnacceptedCurrency() {
         teller.validateTransaction("AUSD", 100); 
 

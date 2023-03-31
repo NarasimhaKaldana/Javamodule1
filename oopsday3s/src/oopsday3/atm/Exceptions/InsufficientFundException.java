@@ -1,10 +1,9 @@
 package oopsday3.atm.Exceptions;
 
 public class InsufficientFundException extends Exception {
-	public InsufficientFundException() {
+	public InsufficientFundException(String msg) {
 		
-	}
-public static void main(String[] args) {
+	
 	 super(msg);
 }
 @Override

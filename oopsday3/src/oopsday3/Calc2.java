@@ -30,6 +30,7 @@ public class Calc2 implements mathIface {
 			flag=1;
 		else
 			flag=0;
+		return count;
 	}
 
 	@Override

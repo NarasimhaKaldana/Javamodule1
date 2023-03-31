@@ -7,8 +7,8 @@ public class BankofAmerica implements BankingIface {
 	@Override
 	public double withdraw(double amount) {
 		
-		account.setBalance(account.getBalance()-amount);
-		return account.getBalance();
+		account.setBalane(account.getBalane()-amount);
+		return account.getBalane();
 		// TODO Auto-generated method stub
 		//return 0;
 	}
@@ -16,8 +16,8 @@ public class BankofAmerica implements BankingIface {
 	@Override
 	public double deposit(double amount) {
 		
-		account.setBalance(account.getBalance()+amount);
-		return account.getBalance();
+		account.setBalane(account.getBalane()+amount);
+		return account.getBalane();
 		// TODO Auto-generated method stub
 		//return 0;
 	}
@@ -25,7 +25,7 @@ public class BankofAmerica implements BankingIface {
 	@Override
 	public double balanceEnquiry(int acno) {
 		
-		return account.getBalance();
+		return account.getBalane();
 		// TODO Auto-generated method stub
 		//return 0;
 	}

@@ -5,7 +5,7 @@ public class CompanyHR {
 	public static void main(String[] args) {
 		Address resAdd = new Address("31","Mannath","Worli","Mumbai",400048);
 		Address commAdd = new Address("32","Antela","Bandra","Mumbai",400032);
-	      Employee emp1 = new Employee("John Doe","Male",24,101,"Research",40000,resAdd,commAdd);
+	      Employee emp1 = new Employee("John Doe","Male",24,101,"Research",40000);
 	      System.out.println(emp1);
 	      Employee emp2 = new Employee("Jane Doe","Female",23,102,"Accounting",35000);
 	      System.out.println(emp2);

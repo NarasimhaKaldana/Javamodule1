@@ -13,9 +13,11 @@ public class ExceptionDemo2 {
            int a = Integer.parseInt(args [1]);
        
        String name = args[2];
-       i
+       }
        
-	}
+       
+	
    
-	}
+	} 
+}
 

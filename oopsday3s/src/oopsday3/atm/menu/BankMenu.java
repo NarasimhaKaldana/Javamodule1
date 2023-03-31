@@ -5,7 +5,7 @@ import java.util.Scanner;
  //import oopsday2.atm.BankofAmerica2;
 public class BankMenu {
   //  public static void main(String args[]) {
-    	BankofAmerica2 boa = new bankofAmerica2();
+    	BankofAmerica2 boa = new BankofAmerica2();
     	public BankMenu() {
     		Account a1 = new Account(101,"John Deo","savings",500);
     	    Account a2 = new Account(102,"Jone Deo","savings",700);
@@ -27,20 +27,21 @@ public class BankMenu {
 		 */
     	public void menu() {
     	Scanner scanner = new Scanner(System.in);
+    	
     	System.out.println("enter your choice 1...5");
-    	choice = scanner.nextInt();
+    	int choice = scanner.nextInt();
     	switch (choice) {
     	case 1:{
     		System.out.println("Enter actno");
     		int actno = scanner.nextInt();
-    		boa.displayAccount(actno);
+    		boa.addAccount(actno);
     		break;
     		
     	}
     	case 2:{
     		System.out.println("Enter actno");
     		int actno = scanner.nextInt();
-    		double balance = boa.deposite(200,101);
+    		double balance = boa.deposit(200,101);
     		System.out.println(balance);
     		break;
     	}

@@ -2,6 +2,6 @@ package oopsday4inheritance.composition;
 
 public class B extends A {
 B(){
-	System.out.println(x+y);
+	System.out.println(getX()+getY());
 }
 }
